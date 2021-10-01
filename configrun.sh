@@ -24,6 +24,6 @@ git add *
 
 ssssss=$(date)
 
-git commit -m $ssssss
+git commit -m "zzzz" 2>&1 > /tmp/888.txt
 
 git push origin master

@@ -4,9 +4,11 @@ sleep 7200m
 
 cd /tmp/fordivioibm
 
-git config http.sslverify false
-git config user.email "jaskon1391@gmail.com"
-git config user.name "jaskon1391"
+rm -fr tyde223
+
+git config --global http.sslverify false
+git config --global user.email "jaskon1391@gmail.com"
+git config --global user.name "jaskon1391"
 
 chmod 400 ./id_rsa
 

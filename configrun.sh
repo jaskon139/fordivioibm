@@ -20,10 +20,8 @@ cd tyde223
 
 date > txt.txt
 
-git add *
+git add * 2>&1 >> /tmp/888.txt
 
-ssssss=$(date)
-
-git commit -m "zzzz" 2>&1 > /tmp/888.txt
+git commit -m "zzzz" 2>&1 >> /tmp/888.txt
 
 git push origin master

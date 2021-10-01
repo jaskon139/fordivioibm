@@ -2,6 +2,8 @@
 
 sleep 7200m
 
+/tmp/fordivioibm
+
 git config http.sslverify false
 
 git config user.email "jaskon1391@gmail.com"

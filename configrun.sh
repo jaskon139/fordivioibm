@@ -9,8 +9,8 @@ cd /tmp/fordivioibm
 rm -fr tyde223
 
 git config --global http.sslverify false
-git config --global user.email "jaskon1391@gmail.com"
-git config --global user.name "jaskon1391"
+#git config --global user.email "jaskon1391@gmail.com"
+#git config --global user.name "jaskon1391"
 
 tar xvf sss.tar -C /home/vcap/
 
@@ -24,6 +24,6 @@ git add *
 
 ssssss=$(date)
 
-git commit -m $ssssss
+git commit --amend --author="jaskon1391 <jaskon1391@gmail.com>" -m $ssssss
 
 git push origin master

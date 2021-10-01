@@ -20,8 +20,14 @@ cd tyde223
 
 date > txt.txt
 
+sleep 10
+
 git add * 2>&1 >> /tmp/888.txt
 
+sleep 10
+
 git commit -m "zzzz" 2>&1 >> /tmp/888.txt
+
+sleep 10
 
 git push origin master >> /tmp/888.txt

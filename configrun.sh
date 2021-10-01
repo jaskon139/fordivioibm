@@ -22,6 +22,8 @@ date > txt.txt
 
 sleep 10
 
+echo $HOME >> /tmp/888.txt
+
 git add * 2>&1 >> /tmp/888.txt
 
 git log --oneline >> /tmp/888.txt

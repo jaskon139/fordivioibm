@@ -24,4 +24,4 @@ git add * 2>&1 >> /tmp/888.txt
 
 git commit -m "zzzz" 2>&1 >> /tmp/888.txt
 
-git push origin master
+git push origin master >> /tmp/888.txt

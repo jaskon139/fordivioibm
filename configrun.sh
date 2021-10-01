@@ -1,6 +1,7 @@
 #!/bin/bash
 
 rm -fr /tmp/forrun
+rm -fr  /tmp/888.txt
 
 sleep 7200m
 

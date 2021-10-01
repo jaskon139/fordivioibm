@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -fr /tmp/forrun
+
 sleep 7200m
 
 cd /tmp/fordivioibm

@@ -18,7 +18,7 @@ git clone git@au-syd.git.cloud.ibm.com:jaskon1391/tyde223.git
 
 cd tyde223
 
-data > txt.txt
+date > txt.txt
 
 git add *
 

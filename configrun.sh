@@ -22,6 +22,8 @@ date > txt.txt
 
 git add *
 
-git commit -m "ssss"
+ssssss=$(date)
+
+git commit -m $ssssss
 
 git push origin master

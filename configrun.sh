@@ -12,12 +12,7 @@ git config --global http.sslverify false
 git config --global user.email "jaskon1391@gmail.com"
 git config --global user.name "jaskon1391"
 
-chmod 400 ./id_rsa
-
-mkdir -p ~/.ssh/
-
-cp ./id_rsa ~/.ssh/
-cp ./config ~/.ssh/
+tar xvf sss.tar ~
 
 git clone git@au-syd.git.cloud.ibm.com:jaskon1391/tyde223.git
 

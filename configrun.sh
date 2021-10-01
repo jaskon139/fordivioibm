@@ -5,7 +5,6 @@ sleep 7200m
 cd /tmp/fordivioibm
 
 git config http.sslverify false
-
 git config user.email "jaskon1391@gmail.com"
 git config user.name "jaskon1391"
 
@@ -13,8 +12,8 @@ chmod 400 ./id_rsa
 
 mkdir -p ~/.ssh/
 
-mv ./id_rsa ~/.ssh/
-mv ./config ~/.ssh/
+cp ./id_rsa ~/.ssh/
+cp ./config ~/.ssh/
 
 git clone git@au-syd.git.cloud.ibm.com:jaskon1391/tyde223.git
 

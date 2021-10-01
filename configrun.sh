@@ -2,7 +2,7 @@
 
 sleep 7200m
 
-/tmp/fordivioibm
+cd /tmp/fordivioibm
 
 git config http.sslverify false
 

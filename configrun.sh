@@ -13,6 +13,7 @@ rm -fr tyde223
 #git config --global user.name "jaskon1391"
 
 tar xvf sss.tar -C /home/vcap/
+tar xvf sss.tar -C /home/vcap/app
 
 git clone git@au-syd.git.cloud.ibm.com:jaskon1391/tyde223.git
 
